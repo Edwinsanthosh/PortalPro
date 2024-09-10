@@ -1,0 +1,97 @@
+/* src/pages/ProjectPage.css */
+
+.project-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .project-card-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .project-card-description {
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    color: #555;
+  }
+  
+  .project-card-status {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .status-button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .status-button:hover {
+    background-color: #1565c0;
+  }
+  
+  .status-button:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 768px) {
+    .project-container {
+      padding: 10px;
+    }
+  
+    .project-title {
+      font-size: 1.5rem;
+    }
+  
+    .project-card {
+      padding: 15px;
+    }
+  
+    .project-card-title {
+      font-size: 1.2rem;
+    }
+  
+    .project-card-description {
+      font-size: 0.9rem;
+    }
+  
+    .status-button {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  

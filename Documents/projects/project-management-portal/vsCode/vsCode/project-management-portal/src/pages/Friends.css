@@ -1,0 +1,17 @@
+.friends-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .friends-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .friends-container p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

@@ -1,0 +1,140 @@
+/* src/pages/Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .dashboard-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .dashboard-grid1{
+    padding: 10px 0;
+  }  
+  .dashboard-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .dashboard-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-icon {
+    margin-right: 10px;
+  }
+  
+  .dashboard-icon svg {
+    fill: #1976d2;
+  }
+  
+  .dashboard-metrics {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .dashboard-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-list-item {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 1024px) {
+    .dashboard-container {
+      padding: 15px;
+    }
+  
+    .dashboard-title {
+      font-size: 1.8rem;
+    }
+  
+    .dashboard-subtitle {
+      font-size: 1rem;
+    }
+  
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .dashboard-grid1{
+        padding: 10px 0;
+      }
+  
+    .dashboard-card-header {
+      flex-direction: column;
+    }
+  
+    .dashboard-icon {
+      margin-bottom: 10px;
+    }
+  
+    .dashboard-metrics {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 10px;
+    }
+  
+    .dashboard-title {
+      font-size: 1.6rem;
+    }
+  
+    .dashboard-subtitle {
+      font-size: 0.9rem;
+    }
+  
+    .dashboard-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .dashboard-card {
+      padding: 10px;
+    }
+  
+    .dashboard-card-header {
+      flex-direction: column;
+    }
+  
+    .dashboard-icon {
+      margin-bottom: 8px;
+    }
+  
+    .dashboard-metrics {
+      font-size: 1.5rem;
+    }
+  }
+  
